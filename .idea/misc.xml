@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/chapter4/app/src/main/res/layout/activity_alert_dialog.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/chapter4/app/src/main/res/layout/activity_data_mahasiswa.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/chapter4/app/src/main/res/layout/activity_hallo.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/chapter4/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/chapter4/app/src/main/res/layout/activity_toast_snackbar.xml" value="0.14130434782608695" />
@@ -11,6 +12,7 @@
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/chapter4/app/src/main/res/layout/fragment_alert_dialog.xml" value="0.1" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/chapter4/app/src/main/res/layout/fragment_first.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/chapter4/app/src/main/res/layout/fragment_second.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/chapter4/app/src/main/res/layout/item_mahasiswa_dapater.xml" value="0.14130434782608695" />
       </map>
     </option>
   </component>
