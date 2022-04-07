@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".exercise_challenge.LoginFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="28sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/login_text"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@color/black"
+        android:layout_below="@+id/login_text"
+        android:id="@+id/exercise_view"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcher_background"
+        android:id="@+id/exercise_login_photo_profile"
+        android:layout_below="@id/exercise_view"
+        android:layout_marginVertical="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan email"
+        android:id="@+id/exercise_login_input_email"
+        android:layout_below="@+id/exercise_login_photo_profile"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:background="@drawable/custom_layout_edit_text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise_login_input_email"
+        android:hint="Masukkan password"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/exercise_login_input_password"
+        android:background="@drawable/custom_layout_edit_text"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:id="@+id/exercise_button_login"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/exercise_belum_punya_akun"/>
+
+    <Button
+        android:id="@+id/exercise_belum_punya_akun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/white"
+        android:text="Belum punya akun?"
+        android:textColor="@color/black"
+        android:layout_marginBottom="30dp" />
+</RelativeLayout>

@@ -10,20 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chapter4">
         <activity
-            android:name=".shared_preference.MiniChallengeSFActivity"
+            android:name=".exercise_challenge.BaseActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".shared_preference.MiniChallengeSFActivity"
+            android:exported="false"/>
         <activity
             android:name=".shared_preference.HalamanDuaActivity"
             android:exported="false" />
         <activity
             android:name=".shared_preference.SharedPreferenceActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".recyclerview.DataMahasiswaActivity"
             android:exported="false" />
